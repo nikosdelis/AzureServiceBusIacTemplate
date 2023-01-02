@@ -8,7 +8,7 @@ param env string
 
 @minLength(3)
 @maxLength(24)
-@description('The name that describes each all resoruces e.g. "message-broker" would be rg-message-broker-test')
+@description('The name that best describes all your resoruces e.g. "message-broker" would be rg-message-broker-test')
 param resourceName string
 
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
